@@ -1,0 +1,53 @@
+/* styles/Page.module.css */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .listItem {
+    margin-bottom: 20px;
+  }
+  
+  .linkContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .linkIcon {
+    margin-right: 10px;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: #0070f3;
+    font-size: 1.25rem;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  .loading {
+    font-size: 1.5rem;
+    margin-top: 50px;
+  }
+  
+  .error {
+    font-size: 1.5rem;
+    color: red;
+    margin-top: 50px;
+  }
+  
