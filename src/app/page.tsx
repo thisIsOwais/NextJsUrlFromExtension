@@ -4,7 +4,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { FiLink } from 'react-icons/fi'; // Import an icon from react-icons package
-import styles from './Page.module.css';
+import styles from './page.module.css'
 
 const Page: React.FC = () => {
   const [data, setData] = useState<string[]>([]);
